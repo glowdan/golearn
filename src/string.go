@@ -31,6 +31,7 @@ func IntForBool(b bool) int {
 		return 0
 	}
 }
+
 func printString() {
 
 	fmt.Printf("%t %t \n", true, false)//格式化布尔值
