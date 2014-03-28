@@ -1,4 +1,4 @@
-behaviour behavior
+﻿behaviour behavior
 colour color
 favourite favorite
 humour humor

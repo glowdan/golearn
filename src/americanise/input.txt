@@ -1,4 +1,4 @@
-This is just some test text. It contains some of the British words that
+﻿This is just some test text. It contains some of the British words that
 have different spellings in American English, such as behaviour, colour,
 favourite, labour, and neighbour.
 
