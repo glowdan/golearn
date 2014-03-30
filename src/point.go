@@ -18,6 +18,7 @@ func main() {
 	fmt.Println(angusta)
 	arrayTmp()
 	sliceTmp()
+	mapTmp()
 }
 
 func arrayTmp() {
@@ -59,4 +60,15 @@ func insertStringSliceCopy(slice, insertion[]string, index int) []string {
 	at += copy(result[at:], insertion)
 	copy(result[at:], slice[index:])
 	return result
+}
+
+func mapTmp() {
+	mapT := map[string]int{}
+	mapT["hell"] = 0
+	fmt.Println(mapT)
+	if value,found := mapT["hell"];found {
+		fmt.Printf("found:%d", value)
+	} else {
+		fmt.Printf("not found%d", value)
+	}
 }
