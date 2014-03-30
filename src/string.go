@@ -44,5 +44,10 @@ func printString() {
 	//切片的格式
 	runeString := "q 切片de √ / "
 	fmt.Printf("%s\n%q\n%+q\n%#q\n%x\n%X\n%#X\n", runeString, runeString, runeString, runeString, []rune(runeString), []rune(runeString), []rune(runeString))
+	stringsPkg()
+}
 
+
+func stringsPkg() {
+	fmt.Println(strings.Contains("我的a", "a"))
 }
