@@ -34,4 +34,8 @@ func main() {
 	mmm := make(map [string] vex )
 	mmm ["ss"] = vex{2,2}
 	fmt.Println(mmm)
+	mval := mmm["ss"]
+	delete(mmm, "ss")
+	mval2, ok := mmm["ss"]
+	fmt.Println(mval, mval2, ok)
 }
